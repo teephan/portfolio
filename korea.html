@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tam Phan</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image">
+    
+    <link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day|Josefin+Sans|Lato|Libre+Baskerville:400i|Raleway" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<header>
+    <h1><a href="index.html"> Tam Phan </a></h1>
+
+    <nav class="navBar">
+        <ul class="nav">
+            <li><a href="about.html"> About </a></li>
+
+            <li><a href="index.html"> Work </a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div class="galleries">
+        <div class="flickity-cell"><img src="images/Korea/forest.jpg" alt="tall green trees with colourful latterns along a path"></div>
+        <div class="flickity-cell"><img src="images/Korea/kimchi.jpg" alt="A lady stirring kimchi in very large pots"></div>
+        <div class="flickity-cell"><img src="images/Korea/Korea.jpg" alt="Colourful rags tied to a fence with chicken wire"></div>
+        <div class="flickity-cell"><img src="images/Korea/lunchdate.jpg" alt="A young boy eating his lunch on a bench"></div>
+        <div class="flickity-cell"><img src="images/Korea/hongseong.jpg" alt="A house with a yard with an overlooking sunset"></div>
+        <div class="flickity-cell"><img src="images/Korea/squid.jpg" alt="A plate of mussels"></div>
+        <div class="flickity-cell"><img src="images/Korea/selfie.jpg" alt="A selfie of Tam with four of her students with huge smiles"></div>
+        <div class="flickity-cell"><img src="images/Korea/hongseong2.jpg" alt="An overlook of the city of Hongseong during a sunset"></div>
+        <div class="flickity-cell"><img src="images/Korea/uptop.jpg" alt="A tree and it's shadow above a mountain during sunset"></div>
+        <div class="flickity-cell"><img src="images/Korea/hike.jpg" alt="A path with greenery and colourful latterns"></div>
+        <div class="flickity-cell"><img src="images/Korea/student.jpg" alt="A girl smiling at the camera with bunny ears by her head"></div>
+        <div class="flickity-cell"><img src="images/Korea/seafood.jpg" alt="Different colourful trays filled with live seafood"></div>
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<script>
+    $(function() {
+        $('.galleries').flickity({
+            wrapAround: true,
+            freeScroll: true,
+            bgLazyLoad: true
+        })
+    });
+</script>
+</body>
+
+<footer>
+    <h3>Tam Phan 2017 / tphan@live.ca </h3>
+</footer>
+
+</html>

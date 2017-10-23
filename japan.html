@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tam Phan</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image">
+
+    <link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day|Josefin+Sans|Lato|Libre+Baskerville:400i|Raleway" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<header>
+    <h1><a href="index.html"> Tam Phan </a></h1>
+
+    <nav class="navBar">
+        <ul class="nav">
+            <li><a href="about.html"> About </a></li>
+
+            <li><a href="index.html"> Work </a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div class="galleries">
+        <div class="flickity-cell"><img src="images/Japan/bike.jpg" alt="bikes and a vending machine on the street"></div>
+        <div class="flickity-cell"><img src="images/Japan/Cemetery.jpg" alt="A cemetery hidden in the forest on a sunny day"></div>
+        <div class="flickity-cell"><img src="images/Japan/shop.jpg" alt="A girl staring out the window in a yellow shop"></div>
+        <div class="flickity-cell"><img src="images/Japan/roofs.jpg" alt="Japanese roofs on a cloudy day"></div>
+        <div class="flickity-cell"><img src="images/Japan/robot.jpg" alt="Robots playing guitars in a mirrored room"></div>
+        <div class="flickity-cell"><img src="images/Japan/purakira.jpg" alt="A sign saying Purakira with stairs descending"></div>
+        <div class="flickity-cell"><img src="images/Japan/Osaka.jpg" alt="The "></div>
+        <div class="flickity-cell"><img src="images/Japan/ramen.jpg" alt="Ramen with a side of lime shavings"></div>
+        <div class="flickity-cell"><img src="images/Japan/ferris.jpg" alt="Ferris wheel on a clear day"></div>
+        <div class="flickity-cell"><img src="images/Japan/fushimi.jpg" alt="Fushimi inari gates at night"></div>
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<script>
+    $(function() {
+        $('.galleries').flickity({
+            wrapAround: true,
+            freeScroll: true,
+            bgLazyLoad: true
+        })
+    });
+</script>
+</body>
+
+<footer>
+    <h3>Tam Phan 2017 / tphan@live.ca</h3>
+</footer>
+
+</html>

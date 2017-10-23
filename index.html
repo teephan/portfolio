@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tam Phan</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image">
+    
+    <link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day|Josefin+Sans|Lato|Libre+Baskerville:400i|Raleway" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<header>
+    <h1><a href="index.html"> Tam Phan </a></h1>
+
+    <nav class="navBar">
+        <ul class="nav">
+            <li><a href="about.html"> About </a></li>
+
+            <li><a href="index.html"> Work </a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <section class="work">
+        <div class="wrapper">
+
+            <div class="item">
+                <a href="webdev.html">
+                    <img class="webdev" src="images/hailey.gif" alt="Moving ">
+
+                    <div class="overlay">
+                        <h2>Web Design</h2>
+                    </div>
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="photography.html">
+                    <img class="photography" src="images/shop1.jpg" alt="Girl facing a large window in a yellow shop">
+
+                    <div class="overlay">
+                        <h2>Photography</h2>
+                    </div>
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="music.html">
+                    <img class="music" src="images/music1.gif" alt="Gif of music studio engineering">
+
+                    <div class="overlay">
+                        <h2 class="music">Music</h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+<script>
+    $(function(){
+    $('nav a').click(function () {
+        $('nav a').css('text-decoration', 'none');
+     $(this).css('text-decoration', 'underline');
+     });
+ });
+</script>
+</body>
+    <footer>
+        <h3>Tam Phan 2017 / tphan@live.ca </h3>
+    </footer>
+</html>

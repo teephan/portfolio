@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tam Phan</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image">
+    
+    <link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day|Josefin+Sans|Lato|Libre+Baskerville:400i|Raleway" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<header>
+    <h1><a href="index.html"> Tam Phan </a></h1>
+
+    <nav class="navBar">
+        <ul class="nav">
+            <li><a href="about.html"> About </a></li>
+
+            <li><a href="index.html"> Work </a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div class="galleries">
+        <div class="flickity-cell"><img src="images/India/cement.jpg" alt="A hole in the cement wall overlooking a distant city"></div>
+        <div class="flickity-cell"><img src="images/India/food.jpg" alt="Fresh Indian dishes on a table"></div>
+        <div class="flickity-cell"><img src="images/India/stop.jpg" alt="A huge crowd of people scattered in the entrance of a train station"></div>
+        <div class="flickity-cell"><img src="images/India/india.jpg" alt="A pink building with India architecture"></div>
+        <div class="flickity-cell"><img src="images/India/gecko.jpg" alt="A gecko hanging onto a pink wall"></div>
+        <div class="flickity-cell"><img src="images/India/delhi.jpg" alt="Architecture in New Delhi"></div>
+        <div class="flickity-cell"><img src="images/India/monkey.jpg" alt="A monkey eating an apple with it's baby staring at the camera"></div>
+        <div class="flickity-cell"><img src="images/India/train.jpg" alt="An inside look of the interior of a train in India"></div>
+        <div class="flickity-cell"><img src="images/India/pano1.jpg" alt="A panorama of the Jaigarh Fort"></div>
+        <div class="flickity-cell"><img src="images/India/pano2.jpg" alt="A panorama of a fort in Jaipur"></div>
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<script>
+    $(function() {
+        $('.galleries').flickity({
+            wrapAround: true,
+            freeScroll: true,
+            bgLazyLoad: true
+        })
+    });
+</script>
+</body>
+
+<footer>
+    <h3>Tam Phan 2017 / tphan@live.ca </h3>
+</footer>
+
+</html>

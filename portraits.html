@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tam Phan</title>
+    
+    <link rel="shortcut icon" href="favicon.ico" type="image">
+
+    <link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day|Josefin+Sans|Lato|Libre+Baskerville:400i|Raleway" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<header>
+    <h1><a href="index.html"> Tam Phan </a></h1>
+
+    <nav class="navBar">
+        <ul class="nav">
+            <li><a href="about.html"> About </a></li>
+
+            <li><a href="index.html"> Work </a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div class="galleries">
+        <div class="flickity-cell"><img src="images/Portraits/Adrian.jpg" alt="Man speaking on the phone"></div>
+        <div class="flickity-cell"><img src="images/Portraits/Andreea.jpg" alt="A woman with peace signs smiling"></div>
+        <div class="flickity-cell"><img src="images/Portraits/Cal.jpg" alt="A woman staring away from the camera in front of fauna"></div>
+        <div class="flickity-cell"><img src="images/Portraits/Dad.jpg" alt="A man with glasses smiling at the camera"></div>
+        <div class="flickity-cell"><img src="images/Portraits/Jesse.jpg" alt="Man with sunglasses looking at camera"></div>
+        <div class="flickity-cell"><img src="images/Portraits/Ethan.jpg" alt="Man staring away from camera to the right"></div>
+        <div class="flickity-cell"><img src="images/Portraits/Nat.jpg" alt="A woman smiling at the camera"></div>
+        <div class="flickity-cell"><img src="images/Portraits/Brett.jpg" alt="A man with arms crossed frowning"></div>
+        <div class="flickity-cell"><img src="images/Portraits/Cyp.jpg" alt="A man with hands at his hips"></div>
+        <div class="flickity-cell"><img src="images/portraits/Karina.jpg" alt="A woman side-glancing the camera"></div>
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<script>
+    $(function() {
+        $('.galleries').flickity({
+            wrapAround: true,
+            freeScroll: true,
+            bgLazyLoad: true
+        })
+    });
+</script>
+</body>
+
+<footer>
+    <h3>Tam Phan 2017 / tphan@live.ca </h3>
+</footer>
+
+</html>
